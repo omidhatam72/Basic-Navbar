@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: omid;
+}
+.logo{
+
+}
+
+header {
+display: flex;
+margin: auto;
+padding: 22px 0px;
+justify-content: space-between;
+align-items: center;
+background-color: rgba(255, 255, 255, 0.72);
+width: 75%;
+text-decoration: none;
+position: sticky;
+top: 0px;
+backdrop-filter: blur(8px);
+
+}
+
+.header-ul{
+display: flex;
+list-style:none;
+
+}
+.header-ul li{
+    font-size: 14px;
+    margin: 0 15px;
+}
+.header-ul li a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.zarin-button a{
+    border: 0.5px solid rgb(234, 209, 209);
+    border-radius: 15px;
+    padding: 4px 9px;
+    margin-right: 20px;
+    font-family: YekanBakhBold.woff;
+    background-color: rgb(232, 239, 254, 0.6);
+    transition:0.5s
+
+}
+.zarin-button a:hover{
+    background-color: rgb(193, 224, 202);
+}
+.more-menu{
+    display: flex;
+}
+.more-menu img{
+    width: 14px;
+    margin-right: 5px;
+}
